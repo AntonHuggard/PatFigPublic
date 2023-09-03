@@ -1,0 +1,29 @@
+{
+    "contents": [
+        {
+            "title": "wizard hat",
+            "image": "imgs/wizard-hat.png",
+            "tags": ["clothing", "hat", "wizard"]
+        },
+        {
+            "title": "",
+            "image": "",
+            "tags": [""]
+        },
+        {
+            "title": "",
+            "image": "",
+            "tags": [""]
+        },
+        {
+            "title": "",
+            "image": "",
+            "tags": [""]
+        },
+        {
+            "title": "",
+            "image": "",
+            "tags": [""]
+        }
+    ]
+}

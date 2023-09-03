@@ -33,11 +33,14 @@ header {
 #search-results img {
     max-height: 200px;
     max-width: 100%;
+    margin: auto;
 }
 
 .patent-drawing {
     border: 1px solid black;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 /* #search-results img {
