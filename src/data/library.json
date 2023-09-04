@@ -19,21 +19,21 @@
             "title": "iPod",
             "description": "old iPod front view",
             "url": "iPod-front.png",
-            "tags": [""]
+            "tags": ["iPod", "Apple"]
         },
         {
             "id": 4,
             "title": "iPod",
             "description": "old iPod top view",
             "url": "iPod-top.png",
-            "tags": [""]
+            "tags": ["iPod", "Apple"]
         },
         {
             "id": 5,
             "title": "iPod",
             "description": "old iPod",
             "url": "iPod.png",
-            "tags": [""]
+            "tags": ["iPod", "Apple"]
         }
     ]
 }
