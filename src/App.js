@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import './style/main.css';
 import library from './library.json'
+import BrandedFooter from './components/Footer'
 
 class App extends Component {
   
   state = {
     "results": library.contents
   };
-
-  pageRedirect = () => {
-    window.location.href='https://antonhuggard.com';
-  }
   
   render() {
 
@@ -36,12 +33,8 @@ class App extends Component {
 
             </div>
 
-            <footer>
-                <div id="huggards" onClick={this.pageRedirect} >
-                    website by Anton Huggard
-                </div>
-                &copy; Anton Huggard 2023. All rights reserved.
-            </footer>
+            <BrandedFooter></BrandedFooter>
+
       </div>
     );
   }
