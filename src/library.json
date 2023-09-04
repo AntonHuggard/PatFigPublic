@@ -1,28 +1,38 @@
 {
     "contents": [
         {
+            "id": 1,
             "title": "wizard hat",
-            "image": "imgs/wizard-hat.png",
+            "description": "",
+            "url": "wizard-hat.png",
             "tags": ["clothing", "hat", "wizard"]
         },
         {
-            "title": "",
-            "image": "",
+            "id": 2,
+            "title": "Kermit",
+            "description": "it's not easy being green",
+            "url": "12-rules.png",
+            "tags": ["frog", "green"]
+        },
+        {
+            "id": 3,
+            "title": "iPod",
+            "description": "old iPod front view",
+            "url": "iPod-front.png",
             "tags": [""]
         },
         {
-            "title": "",
-            "image": "",
+            "id": 4,
+            "title": "iPod",
+            "description": "old iPod top view",
+            "url": "iPod-top.png",
             "tags": [""]
         },
         {
-            "title": "",
-            "image": "",
-            "tags": [""]
-        },
-        {
-            "title": "",
-            "image": "",
+            "id": 5,
+            "title": "iPod",
+            "description": "old iPod",
+            "url": "iPod.png",
             "tags": [""]
         }
     ]
