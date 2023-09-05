@@ -7,28 +7,29 @@ import DisplayResults from './components/DisplayResults'
 
 class App extends Component {
   
-  state = {
-    "results": library.contents
-  };
-
   searchAssetJson = (q) => {
     console.log(`searching asset library for ${q}...`);
     let filteredResults = [];
-    this.state.results.forEach(image => {
+    library.contents.forEach(image => {
       const lowercaseTags = image.tags.map(x => x.toLowerCase());
       if (lowercaseTags.includes(q.toLowerCase())) {
         filteredResults.push(image);
       }
     });
-    this.setState({results: filteredResults});
+    return filteredResults;
   }
   
-  render() {
-    
+  getLibrary = () => {
     const terms = window.location.href.split('?q=');
     const query = terms[1];
-    if (query) this.searchAssetJson(query);
+    return query? this.searchAssetJson(query) : library.contents;
+  }
 
+  state = {
+    "results": this.getLibrary()
+  };
+  
+  render() {
 
     return (
       <div className="App">
