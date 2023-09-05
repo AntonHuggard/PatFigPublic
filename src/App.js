@@ -3,6 +3,7 @@ import './style/main.css';
 import library from './data/library.json'
 import BrandedFooter from './components/Footer'
 import SearchBar from './components/SearchBar'
+import DisplayResults from './components/DisplayResults'
 
 class App extends Component {
   
@@ -41,15 +42,7 @@ class App extends Component {
 
                 <SearchBar></SearchBar>
 
-                <div id="search-results">
-                  {this.state.results.map(fig => ( 
-                    <div className="patent-drawing" key={fig.id} >
-                      <label>{fig.title}</label>
-                      <img src={window.location.origin + '/imgs/' + fig.url} alt="patent figure" />
-                      <a href="https://patfig.com">Download</a>
-                    </div>
-                  )) }
-                </div>
+                <DisplayResults results={this.state.results}></DisplayResults>
 
             </div>
 
