@@ -34,6 +34,34 @@
             "description": "old iPod",
             "url": "iPod.png",
             "tags": ["iPod", "Apple"]
+        },
+        {
+            "id": 6,
+            "title": "Hand pointing",
+            "description": "left hand with index finger pointing",
+            "url": "hand-pointing.svg",
+            "tags": ["human", "hand", "point", "pointing"]
+        },
+        {
+            "id": 7,
+            "title": "Hand pointing (front)",
+            "description": "left hand with index finger pointing",
+            "url": "hand-pointing-front.svg",
+            "tags": ["human", "hand", "point", "pointing"]
+        }, 
+        {
+            "id": 8,
+            "title": "Hand pointing (no wrist)",
+            "description": "right hand with index finger pointing",
+            "url": "r-hand-pointing.svg",
+            "tags": ["human", "hand", "point", "pointing"]
+        }, 
+        {
+            "id": 9,
+            "title": "End user (laptop)",
+            "description": "User with laptop",
+            "url": "user-w-laptop.svg",
+            "tags": ["human", "laptop", "user"]
         }
     ]
 }

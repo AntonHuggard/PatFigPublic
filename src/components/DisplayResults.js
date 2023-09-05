@@ -9,7 +9,7 @@ class DisplayResults extends Component {
                 <div className="patent-drawing" key={fig.id} >
                     <label>{fig.title}</label>
                     <img src={window.location.origin + '/imgs/' + fig.url} alt="patent figure" />
-                    <a href="https://patfig.com">Download</a>
+                    <a href={window.location.origin + '/imgs/' + fig.url} download>Download</a>
                 </div>
                 )) }
             </div>

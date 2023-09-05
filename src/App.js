@@ -35,7 +35,7 @@ class App extends Component {
       <div className="App">
             <header>
                 <h1>PatFig.</h1>
-                <h3>Patent figures made easy(ish)</h3>
+                <h3>Patent figures made easy<sup>(ish)</sup></h3>
             </header>
 
             <div id="main-content">
