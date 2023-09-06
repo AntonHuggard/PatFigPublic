@@ -7,6 +7,15 @@ header {
     width: 100vw;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: blue;
+}
+
 #site-title, #site-subtitle {
     margin: 0;
     text-align: center;
@@ -19,5 +28,9 @@ header {
 }
 
 #site-nav a {
-    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#site-nav a:hover {
+    font-weight: bold;
 }
