@@ -9,8 +9,17 @@ class NavBar extends Component {
     render() {
         return(
             <header>
-                <h1>PatFig.</h1>
-                <h3>Patent figures made easy<sup>(ish)</sup></h3>
+                <div id="site-titles">
+                    <h1 id="site-title">PatFig.</h1>
+                    <h3 id="site-subtitle">Patent figures made easy<sup>(ish)</sup></h3>
+                </div>
+                <div></div>
+                <div id="site-nav">
+                    <a>About</a>
+                    <a>Tutorial</a>
+                    <a>Contribute</a>
+                    <a>Contact</a>
+                </div>
             </header>
         )
     }
