@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './style/main.css';
+import './style/navbar.css';
 import library from './data/library.json'
 import BrandedFooter from './components/Footer'
 import SearchBar from './components/SearchBar'
 import DisplayResults from './components/DisplayResults'
+import NavBar from './components/NavBar'
 
 class App extends Component {
   
@@ -33,10 +35,7 @@ class App extends Component {
 
     return (
       <div className="App">
-            <header>
-                <h1>PatFig.</h1>
-                <h3>Patent figures made easy<sup>(ish)</sup></h3>
-            </header>
+            <NavBar></NavBar>
 
             <div id="main-content">
                 <h3>Find an asset for your patent drawings</h3>

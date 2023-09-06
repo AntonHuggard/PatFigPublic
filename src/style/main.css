@@ -7,10 +7,7 @@ body {
     background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
-header {
-    background-color: white;
-    text-align: center;
-}
+
 #main-content {
     margin-top: 5vh;
     width: 95%;
