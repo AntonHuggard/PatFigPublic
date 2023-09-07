@@ -14,6 +14,9 @@ class Contact extends Component {
 
             <div id="main-content">
                 <h3>Contact</h3>
+                <p>
+                  Send me an email at: <email>ahuggardwork@gmail.com</email>. 
+                </p>
             </div>
 
             <BrandedFooter></BrandedFooter>

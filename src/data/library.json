@@ -23,6 +23,22 @@
             "svg_url": "3-smartphone.svg",
             "png_url": "3-smartphone.png",
             "tags": ["computer", "smartphone", "cellphone", "mobile"]
+        },
+        {
+            "id": 4,
+            "title": "Benzene",
+            "description": "Benzene molecule",
+            "svg_url": "4-benzene.svg",
+            "png_url": "4-benzene.png",
+            "tags": ["chemical", "benzene", "aromatic", "molecule"]
+        },
+        {
+            "id": 5,
+            "title": "Toluene",
+            "description": "Toluene molecule",
+            "svg_url": "5-toluene.svg",
+            "png_url": "5-toluene.png",
+            "tags": ["chemical", "toluene", "aromatic", "molecule"]
         }
     ]
 }

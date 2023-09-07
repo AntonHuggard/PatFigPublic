@@ -22,6 +22,7 @@ class Contribute extends Component {
                 </p>
                 <ul>
                     <li><a href="https://github.com/AntonHuggard/PatFigPublic">GitHub repo</a></li>
+                    <li><a href="https://forms.gle/btzPZNmqQCL4g4j99">Report a bug or request a feature</a></li>
                 </ul>
             </div>
 
