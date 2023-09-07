@@ -15,6 +15,9 @@ class Contribute extends Component {
             <div id="main-content">
                 <h3>Contribute</h3>
                 <p>
+                    Are you an Artist wanting to advertise your talents to Patent Attorneys?
+                    Please get in contact.<br/>
+                    <br/>
                     Links:
                 </p>
                 <ul>

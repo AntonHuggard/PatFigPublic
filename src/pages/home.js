@@ -15,9 +15,13 @@ class Home extends Component {
     let filteredResults = [];
     library.contents.forEach(image => {
       const lowercaseTags = image.tags.map(x => x.toLowerCase());
-      if (lowercaseTags.includes(q.toLowerCase())) {
-        filteredResults.push(image);
-      }
+      lowercaseTags.forEach(x => {
+        // for the query "key", the tag "keyboard" should be a match
+        // however, we don't want repeat results (e.g. for "phone" and "smartphone")
+        if(x.includes(q.toLowerCase()) && !(filteredResults.includes(image))) {
+          filteredResults.push(image);
+        }
+      })
     });
     return filteredResults;
   }

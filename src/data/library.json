@@ -2,66 +2,27 @@
     "contents": [
         {
             "id": 1,
-            "title": "wizard hat",
-            "description": "",
-            "url": "wizard-hat.png",
-            "tags": ["clothing", "hat", "wizard"]
+            "title": "Computer mouse",
+            "description": "Mouse with scroll wheel",
+            "svg_url": "1-computer-mouse.svg",
+            "png_url": "1-computer-mouse.png",
+            "tags": ["computer", "mouse", "scroll"]
         },
         {
             "id": 2,
-            "title": "Kermit",
-            "description": "it's not easy being green",
-            "url": "12-rules.png",
-            "tags": ["frog", "green"]
+            "title": "Keyboard",
+            "description": "Keyboard with minimal keys",
+            "svg_url": "2-computer-keyboard.svg",
+            "png_url": "2-computer-keyboard.png",
+            "tags": ["computer", "keyboard", "buttons", "spacebar"]
         },
         {
             "id": 3,
-            "title": "iPod",
-            "description": "old iPod front view",
-            "url": "iPod-front.png",
-            "tags": ["iPod", "Apple"]
-        },
-        {
-            "id": 4,
-            "title": "iPod",
-            "description": "old iPod top view",
-            "url": "iPod-top.png",
-            "tags": ["iPod", "Apple"]
-        },
-        {
-            "id": 5,
-            "title": "iPod",
-            "description": "old iPod",
-            "url": "iPod.png",
-            "tags": ["iPod", "Apple"]
-        },
-        {
-            "id": 6,
-            "title": "Hand pointing",
-            "description": "left hand with index finger pointing",
-            "url": "hand-pointing.svg",
-            "tags": ["human", "hand", "point", "pointing"]
-        },
-        {
-            "id": 7,
-            "title": "Hand pointing (front)",
-            "description": "left hand with index finger pointing",
-            "url": "hand-pointing-front.svg",
-            "tags": ["human", "hand", "point", "pointing"]
-        }, 
-        {
-            "id": 8,
-            "title": "Hand pointing (no wrist)",
-            "description": "right hand with index finger pointing",
-            "url": "r-hand-pointing.svg",
-            "tags": ["human", "hand", "point", "pointing"]
-        }, 
-        {
-            "id": 9,
-            "title": "End user (laptop)",
-            "description": "User with laptop",
-            "url": "user-w-laptop.svg",
-            "tags": ["human", "laptop", "user"]
+            "title": "Smartphone",
+            "description": "Front view of smartphone",
+            "svg_url": "3-smartphone.svg",
+            "png_url": "3-smartphone.png",
+            "tags": ["computer", "smartphone", "cellphone", "mobile"]
         }
     ]
 }
