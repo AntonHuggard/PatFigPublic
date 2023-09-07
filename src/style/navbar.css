@@ -5,6 +5,7 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
+    border-bottom: 1px solid rgb(141, 141, 141);
 }
 
 header a {
@@ -21,6 +22,11 @@ header a:hover {
     text-align: center;
 }
 
+#site-title {
+    line-height: 70%;
+    margin-top: 5px;
+}
+
 #site-nav {
     width: 500px;
     display: grid;
@@ -28,7 +34,7 @@ header a:hover {
 }
 
 #site-nav a {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #site-nav a:hover {

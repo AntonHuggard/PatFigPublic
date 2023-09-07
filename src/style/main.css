@@ -16,6 +16,16 @@ body {
     margin: auto;
     text-align: center;
     background-color: white;
+    padding: 5px;
+    /* border: 1px solid rgb(141, 141, 141); */
+}
+
+#main-content p, #main-content ol {
+    text-align: left;
+}
+
+#main-content p a {
+    color: blue;
 }
 
 
