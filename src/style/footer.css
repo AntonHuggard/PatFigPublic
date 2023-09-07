@@ -1,0 +1,26 @@
+footer {
+    padding-top: 50px;
+    padding-bottom: 30vh;
+    text-align: center;
+}
+#huggards {
+    font-family: 'Merriweather', serif;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    width: 250px;
+    color: rgb(165, 165, 165);
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 30px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#huggards:hover {
+    color: black;
+    border: 2px solid black;
+}

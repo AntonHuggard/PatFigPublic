@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../style/main.css';
 import '../style/navbar.css';
+import '../style/footer.css';
 import BrandedFooter from '../components/Footer'
 import NavBar from '../components/NavBar'
 
@@ -30,11 +31,18 @@ class About extends Component {
                 <p>
                     However, I need to start somewhere. 
                     And, having spent lots of time looking at patent drawings (at least in the field of computer-related inventions), I've noticed there are a handful of images that pop up again and again.
-                    Despite consistent use, there doesn't seem to be an online hub of public domain images for patent drawings.<br/>
+                    Despite consistent use, there doesn't seem to be an online hub of public domain images for patent drawings (NB. I reserve all rights on every part of this project <em>at the moment</em> - this may be subject to change).<br/>
                     <br/>
-                    I'm sure there's some existing software that lets you import clip art to your document.
-                    However, many practitioners are probably needlessly re-inventing the wheel.
+                    I'm sure there's some existing software that lets you import or download clip art to your document.
+                    However, the use of these tools are not consistent or widespread. 
+                    Many IP practitioners are probably needlessly re-inventing the wheel.
                     If you would like to help this project, check out the <a href="/#/contribute">contribute page</a> or send me an email.
+                </p>
+                <hr/>
+                <h3>Legal</h3>
+                <p>
+                    This project and all drawings included herein are protected by copyright.
+                    No part of this website may be copied or used without express written permission from the copyright owner. 
                 </p>
             </div>
 

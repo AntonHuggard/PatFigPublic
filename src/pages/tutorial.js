@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../style/main.css';
 import '../style/navbar.css';
+import '../style/footer.css';
 import BrandedFooter from '../components/Footer'
 import NavBar from '../components/NavBar'
 

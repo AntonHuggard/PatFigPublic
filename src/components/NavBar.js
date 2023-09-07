@@ -9,11 +9,11 @@ class NavBar extends Component {
     render() {
         return(
             <header>
-                <a href="/#/home" id="site-titles">
+                <a href="/" id="site-titles">
                     <h1 id="site-title">PatFig.</h1>
                     <h3 id="site-subtitle">Patent figures made easy<sup>(ish)</sup></h3>
                 </a>
-                <div></div>
+                <div id="show-mob-menu">&#9776;</div>
                 <div id="site-nav">
                     <a href="/#/about">About</a>
                     <a href="/#/tutorial">Tutorial</a>
