@@ -17,8 +17,6 @@ class About extends Component {
                 <p>
                     The goal of PatFig is to reduce the amount of time Patent Attorneys spend on drawings.<br/>
                     <br/>
-                    That's it.<br/>
-                    <br/>
                     Now, this is a reasoanably difficult problem. 
                     There are several factors to consider:
                 </p>
@@ -31,7 +29,7 @@ class About extends Component {
                 <p>
                     However, I need to start somewhere. 
                     And, having spent lots of time looking at patent drawings (at least in the field of computer-related inventions), I've noticed there are a handful of images that pop up again and again.
-                    Despite consistent use, there doesn't seem to be an online hub of public domain images for patent drawings (NB. I reserve all rights on every part of this project <em>at the moment</em> - this may be subject to change).<br/>
+                    Despite consistent use, there doesn't seem to be an online hub of public domain images for patent drawings.<br/>
                     <br/>
                     I'm sure there's some existing software that lets you import or download clip art to your document.
                     However, the use of these tools are not consistent or widespread. 
@@ -41,8 +39,8 @@ class About extends Component {
                 <hr/>
                 <h3>Legal</h3>
                 <p>
-                    This project and all drawings included herein are protected by copyright.
-                    No part of this website may be copied or used without express written permission from the copyright owner. 
+                    The code for this project is protected by copyright.
+                    Do not steal my idea.
                 </p>
             </div>
 

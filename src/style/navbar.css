@@ -43,11 +43,51 @@ header a:hover {
 
 #show-mob-menu {
     opacity: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+#show-mob-menu:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 910px) {
+    #mob-nav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 910px) {
     header {
         grid-template-columns: 50px 1fr;
+    }
+
+    #mob-nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        position: fixed;
+        height: calc(100vh - 48px);
+        width: 100vw;
+        top: 48px;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    #mob-nav.hidden {
+        transform: translateX(-100%);
+    }
+
+    #mob-nav a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 2em;
+        padding-top: 1.25em;
+        color: black;
+    }
+    #mob-nav a:hover {
+        background-color: rgb(130, 184, 235);
     }
 
     #show-mob-menu {
@@ -56,6 +96,10 @@ header a:hover {
         opacity: 1;
         font-size: 2em;
         padding-left: 10px;
+    }
+    #close-btn {
+        font-size: 1.5em;
+        line-height: 0.5em;
     }
 
     #site-titles {
@@ -70,4 +114,8 @@ header a:hover {
         padding-bottom: 10px;
         margin-right: 50px;
     }
+}
+
+.begone {
+    display: none !important;
 }
