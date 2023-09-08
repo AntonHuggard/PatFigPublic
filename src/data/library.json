@@ -39,6 +39,30 @@
             "svg_url": "5-toluene.svg",
             "png_url": "5-toluene.png",
             "tags": ["chemical", "toluene", "aromatic", "molecule"]
+        },
+        {
+            "id": 6,
+            "title": "Desktop",
+            "description": "Desktop computer without mouse",
+            "svg_url": "7-desktop-computer-mouseless.svg",
+            "png_url": "7-desktop-computer-mouseless.png",
+            "tags": ["computer", "desktop", "keyboard", "mouse"]
+        },
+        {
+            "id": 7,
+            "title": "Diode",
+            "description": "Diode (electrical symbol)",
+            "svg_url": "7-diode.svg",
+            "png_url": "7-diode.png",
+            "tags": ["electronic", "circuit", "diode", "symbol"]
+        },
+        {
+            "id": 8,
+            "title": "Lamp",
+            "description": "Lamp (electrical symbol)",
+            "svg_url": "8-lamp.svg",
+            "png_url": "8-lamp.png",
+            "tags": ["electronic", "circuit", "lamp", "symbol"]
         }
     ]
 }
