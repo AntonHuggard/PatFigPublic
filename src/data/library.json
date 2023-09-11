@@ -14,7 +14,7 @@
             "description": "Keyboard with minimal keys",
             "svg_url": "2-computer-keyboard-full.svg",
             "png_url": "2-computer-keyboard-full.png",
-            "tags": ["computer", "keyboard", "buttons", "spacebar"]
+            "tags": ["computer", "keyboard", "buttons", "spacebar", "full"]
         },
         {
             "id": 3,
@@ -63,6 +63,22 @@
             "svg_url": "8-lamp.svg",
             "png_url": "8-lamp.png",
             "tags": ["electronic", "circuit", "lamp", "symbol"]
+        },
+        {
+            "id": 9,
+            "title": "Keyboard (simple)",
+            "description": "Computer keyboard reduced size",
+            "svg_url": "9-computer-keyboard-simple.svg",
+            "png_url": "9-computer-keyboard-simple.png",
+            "tags": ["computer", "keyboard", "buttons", "spacebar", "simple"]
+        },
+        {
+            "id": 10,
+            "title": "End user",
+            "description": "Computer keyboard reduced size",
+            "svg_url": "10-end-user.svg",
+            "png_url": "10-end-user.png",
+            "tags": ["computer", "human", "user", "laptop"]
         }
     ]
 }
