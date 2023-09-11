@@ -12,8 +12,8 @@
             "id": 2,
             "title": "Keyboard",
             "description": "Keyboard with minimal keys",
-            "svg_url": "2-computer-keyboard.svg",
-            "png_url": "2-computer-keyboard.png",
+            "svg_url": "2-computer-keyboard-full.svg",
+            "png_url": "2-computer-keyboard-full.png",
             "tags": ["computer", "keyboard", "buttons", "spacebar"]
         },
         {
