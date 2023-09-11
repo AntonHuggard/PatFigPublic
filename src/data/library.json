@@ -87,6 +87,38 @@
             "svg_url": "11-hand-pointing.svg",
             "png_url": "11-hand-pointing.png",
             "tags": ["human", "hand", "point", "finger"]
+        },
+        {
+            "id": 12,
+            "title": "LED",
+            "description": "Light emitting diode",
+            "svg_url": "12-light-emitting-diode.svg",
+            "png_url": "12-light-emitting-diode.png",
+            "tags": ["electronic", "circuit", "diode", "symbol", "led", "light", "emitting"]
+        },
+        {
+            "id": 13,
+            "title": "Laptop",
+            "description": "Front view of a laptop",
+            "svg_url": "13-laptop.svg",
+            "png_url": "13-laptop.png",
+            "tags": ["computer", "laptop", "front view"]
+        },
+        {
+            "id": 14,
+            "title": "Server (schematic)",
+            "description": "Schematic view of a server",
+            "svg_url": "14-server-schematic.svg",
+            "png_url": "14-server-schematic.png",
+            "tags": ["computer", "server", "schematic"]
+        },
+        {
+            "id": 15,
+            "title": "Server",
+            "description": "Isometric view of a server",
+            "svg_url": "15-server.svg",
+            "png_url": "15-server.png",
+            "tags": ["computer", "server", "isometric"]
         }
     ]
 }
