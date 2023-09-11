@@ -79,6 +79,14 @@
             "svg_url": "10-end-user.svg",
             "png_url": "10-end-user.png",
             "tags": ["computer", "human", "user", "laptop"]
+        },
+        {
+            "id": 11,
+            "title": "Hand (pointing)",
+            "description": "Human hand (right) with extended index finger",
+            "svg_url": "11-hand-pointing.svg",
+            "png_url": "11-hand-pointing.png",
+            "tags": ["human", "hand", "point", "finger"]
         }
     ]
 }
