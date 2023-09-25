@@ -17,7 +17,8 @@ body {
     text-align: center;
     background-color: white;
     padding: 5px;
-    /* border: 1px solid rgb(141, 141, 141); */
+    border: 1px solid rgb(141, 141, 141);
+    box-shadow: 0 0 10px rgb(161, 161, 161);
 }
 
 #main-content p, #main-content ol, #main-content ul {
@@ -28,6 +29,9 @@ body {
     color: blue;
 }
 
+#search-bar-wrapper {
+    margin-bottom: 20px;
+}
 
 #search-results {
     display: grid;
@@ -49,15 +53,52 @@ body {
     }
 }
 
+
 #search-results img {
     max-height: 200px;
     max-width: 80%;
     margin: auto;
+    padding: 10px;
 }
 
 .patent-drawing {
-    border: 1px solid rgb(145, 145, 145);
-    /* border-radius: 5px; */
+    border: 1px solid rgb(235, 235, 235);
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr 20px 20px;
+    transition: 0.25s;
+}
+
+.patent-drawing:hover {
+    border: 1px solid rgb(145, 145, 145);
+}
+.patent-drawing a {
+    color: rgb(31, 31, 31) !important;
+}
+.patent-drawing:hover a {
+    color: blue !important;
+}
+
+#search-bar {
+    color: blue;
+    font-family: 'Merriweather', serif;
+    padding: 4px;
+    border-radius: 0;
+    border: 1px solid black;
+    border-right: 0;
+    font-weight: 500;
+    width: 300px;
+}
+
+#search-btn { 
+    font-family: 'Merriweather', serif;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0;
+    border: 1px solid rgb(87, 87, 87);
+    padding: 4px 20px;
+}
+
+#search-btn:hover {
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
 }
