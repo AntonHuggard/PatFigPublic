@@ -24,3 +24,4 @@ footer {
     color: black;
     border: 2px solid black;
 }
+.gh-link { cursor: pointer; }
