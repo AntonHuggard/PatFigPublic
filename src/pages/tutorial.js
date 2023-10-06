@@ -12,11 +12,15 @@ class Tutorial extends Component {
       <div className="Home">
             <NavBar></NavBar>
 
-            <div id="main-content">
-                <h3>Tutorial</h3>
-            </div>
+            <div id="page-container">
 
-            <BrandedFooter></BrandedFooter>
+              <div id="main-content">
+                  <h3>Tutorial</h3>
+              </div>
+
+              <BrandedFooter></BrandedFooter>
+              
+            </div>
       </div>
     );
   }

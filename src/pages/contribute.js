@@ -12,21 +12,25 @@ class Contribute extends Component {
       <div className="Home">
             <NavBar></NavBar>
 
-            <div id="main-content">
-                <h3>Contribute</h3>
-                <p>
-                    Are you an Artist wanting to advertise your talents to Patent Attorneys?
-                    Please get in contact.<br/>
-                    <br/>
-                    Links:
-                </p>
-                <ul>
-                    <li><a href="https://github.com/AntonHuggard/PatFigPublic">GitHub repo</a></li>
-                    <li><a href="https://forms.gle/btzPZNmqQCL4g4j99">Report a bug or request a feature</a></li>
-                </ul>
-            </div>
+            <div id="page-container">
 
-            <BrandedFooter></BrandedFooter>
+              <div id="main-content">
+                  <h3>Contribute</h3>
+                  <p>
+                      Are you an Artist wanting to advertise your talents to Patent Attorneys?
+                      Please get in contact.<br/>
+                      <br/>
+                      Links:
+                  </p>
+                  <ul>
+                      <li><a href="https://github.com/AntonHuggard/PatFigPublic">GitHub repo</a></li>
+                      <li><a href="https://forms.gle/btzPZNmqQCL4g4j99">Report a bug or request a feature</a></li>
+                  </ul>
+              </div>
+
+              <BrandedFooter></BrandedFooter>
+
+            </div>
       </div>
     );
   }

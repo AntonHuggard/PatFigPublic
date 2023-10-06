@@ -42,6 +42,8 @@ class Home extends Component {
       <div className="Home">
             <NavBar></NavBar>
 
+            <div id="page-container">
+
             <div id="main-content">
                 <h3>Find an asset for your patent drawings</h3>
 
@@ -52,6 +54,8 @@ class Home extends Component {
             </div>
 
             <BrandedFooter></BrandedFooter>
+
+            </div>
 
       </div>
     );
