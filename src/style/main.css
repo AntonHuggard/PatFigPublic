@@ -119,12 +119,13 @@ body {
     #search-bar-wrapper {
         display: grid;
         grid-template-columns: 1fr 60px;
-        width: 260px;
+        width: 95%;
+        max-width: 400px;
         margin: auto;
         margin-bottom: 20px;
     }
 
-    #search-bar { width: 200px; }
+    #search-bar { width: 100%; }
 
     #search-btn {
         padding: 0 10px;
